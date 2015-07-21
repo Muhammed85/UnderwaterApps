@@ -205,9 +205,9 @@ public class WaterDetector {
         	model = 0;
         	Log.d("WaterDetector", "Found Xperia Z");
         }
-        else if (android.os.Build.MODEL.equals("C6902")) { //Xperia Z1, model = 1
+        else if (android.os.Build.MODEL.equals("C6502")) { //Xperia Z2, model = 1
         	model = 1;
-        	Log.d("WaterDetector", "Found Xperia Z1");
+        	Log.d("WaterDetector", "Found Xperia Z2");
         }
         else if (android.os.Build.MODEL.equals("C6916")) { //Xperia Z1s, model = 2
         	model = 2;
